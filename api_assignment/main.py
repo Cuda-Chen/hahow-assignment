@@ -77,7 +77,7 @@ class TestAPI(unittest.TestCase):
         try:
             int(s)
             return True
-        except:
+        except Exception:
             return False
 
 
